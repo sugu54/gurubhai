@@ -1,11 +1,11 @@
 #include<stdio.h>
 #include<conio.h>
-void main()
+int main()
 {
     int a;
     printf("enter value");
     scanf("%d",&a);
-    if(a>0)
+    { if(a>0)
     {
     printf("positive");
     }
@@ -17,5 +17,5 @@ void main()
     {
     printf("negative");
     }
-getch();
+    }return 0;
 }
